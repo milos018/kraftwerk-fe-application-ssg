@@ -1,10 +1,10 @@
 <template>
-  <the-header></the-header>
-  <router-view />
+	<the-header></the-header>
+	<router-view />
 </template>
 
 <script setup>
-import TheHeader from "~/components/the-header.vue";
+import TheHeader from '~/components/the-header.vue';
 </script>
 
 <style>
@@ -17,6 +17,11 @@ h6,
 p,
 a,
 button {
-  font-family: "Arial";
+	font-family: 'Arial';
+}
+
+img {
+	max-width: 100%;
+	display: block;
 }
 </style>
