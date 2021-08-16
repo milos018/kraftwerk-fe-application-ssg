@@ -26,8 +26,7 @@
 						text-[#fff]
 						font-bold
 						leading-tight
-						text-2xl
-						md:text-3xl
+						text-3xl
 						lg:text-5xl
 						text-center
 					"
